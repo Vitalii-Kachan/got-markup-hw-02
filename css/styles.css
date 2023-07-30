@@ -1,3 +1,45 @@
+/* base styles */
+.body {
+  font-family: Roboto;
+  background: #fff;
+  width: 1440px;
+  height: 2592px;
+}
+.section {
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Top line */
+.nav-menu {
+  width: 90rem;
+  height: 4.5rem;
+}
+.web-link {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.3125rem; /* 116.667% */
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+  width: 2.75rem;
+}
+.studio-link {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.3125rem; /* 116.667% */
+  letter-spacing: 0.03375rem;
+  text-transform: uppercase;
+}
 /* 
 main section 
 */
