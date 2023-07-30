@@ -1,5 +1,6 @@
 /* base styles */
 .body {
+  color: #2e2f42;
   font-family: Roboto;
   background: #fff;
   width: 1440px;
@@ -15,11 +16,7 @@
 }
 
 /* Top line */
-.nav-menu {
-  width: 90rem;
-  height: 4.5rem;
-}
-.web-link {
+.web-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 1.125rem;
@@ -27,11 +24,111 @@
   font-weight: 800;
   line-height: 1.3125rem; /* 116.667% */
   letter-spacing: 0.03375rem;
-  text-transform: uppercase;
-  width: 2.75rem;
 }
-.studio-link {
+.web-logo:hover {
+  background: var(--ocean, #404bbf);
+}
+.studio-logo {
   color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.3125rem; /* 116.667% */
+  letter-spacing: 0.03375rem;
+}
+
+.contacts {
+  color: var(--slate, #2e2f42);
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.02rem;
+}
+.contacts:hover,
+.contacts:active {
+  color: #404bbf;
+}
+.adresss {
+  color: #434455;
+}
+.adress-link {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.02rem;
+}
+/* 
+main section 
+*/
+
+/* dark block section */
+.sections-dark {
+  background: var(--navyblue, #2e2f42);
+}
+.title-major {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem; /* 107.143% */
+  letter-spacing: 0.07rem;
+}
+.major-button {
+  color: #fff;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.major-button:hover {
+  background: var(--ocean, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/* Fatures section */
+.section-feature {
+}
+.title-h3 {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 120% */
+  letter-spacing: 0.025rem;
+}
+.text-desc {
+  color: var(--slate, #434455);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.02rem;
+}
+/* What are we doing section */
+.sections-what-are {
+}
+.title-h2 {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem; /* 111.111% */
+  letter-spacing: 0.045rem;
+  text-transform: capitalize;
+}
+
+/* Team section */
+.section-team {
+  background: var(--cloud, #f4f4fd);
+}
+/* Footer section */
+.footer {
+  background: var(--navyblue, #2e2f42);
+}
+.studio-footer {
+  color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -40,6 +137,11 @@
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
-/* 
-main section 
-*/
+.text-desc-foot {
+  color: var(--cloud, #f4f4fd);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.02rem;
+}
