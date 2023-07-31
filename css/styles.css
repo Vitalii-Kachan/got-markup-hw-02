@@ -12,7 +12,7 @@
 /* base styles */
 .body {
   background-color: var(--primary-white-color, #ffffff);
-  color: var(---nav-log-foot-color, #2e2f42);
+  color: var(--nav-log-foot-color, #2e2f42);
   font-family: var(--prymary-fonts, 'Roboto', sans-serif);
 }
 
@@ -28,19 +28,18 @@
 .web-logo {
   color: var(--button-color, #4D5AE5);
   font-family: var(--title-font, 'Raleway', sans-serif);
-  font-size: 1.125rem;
+  font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.3125rem;
+  line-height: 21px;
   /* 116.667% */
-  letter-spacing: 0.03375rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .studio-logo {
   color: var(--nav-log-foot-color, #2e2f42);
   font-family: var(--title-font, 'Raleway', sans-serif);
-  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -183,24 +182,4 @@ main section
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
-}
-
-.baton-port {
-  background-color: var(--primary-white-color, #ffffff);
-}
-
-.button-port-link {
-  text-transform: uppercase;
-  font-family: Roboto;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5rem;
-  /* 150% */
-  letter-spacing: 0.04rem;
-}
-
-.button-port-link:hover,
-.button-port-link:focus {
-  color: var(--button-color, #4D5AE5);
 }

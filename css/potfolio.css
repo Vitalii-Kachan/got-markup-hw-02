@@ -1,0 +1,19 @@
+.baton-port {
+    background-color: var(--primary-white-color, #ffffff);
+}
+
+.button-port-link {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* 150% */
+    letter-spacing: 0.04rem;
+}
+
+.button-port-link:hover,
+.button-port-link:focus {
+    color: var(--button-color, #4D5AE5);
+}
