@@ -25,28 +25,16 @@
 }
 
 /* Top line */
+.navigation {
+  background-color: var(--primary-white-color, #ffffff);
+}
+
 .web-logo {
-  color: var(--button-color, #4D5AE5);
-  font-family: var(--title-font, 'Raleway', sans-serif);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: #4D5AE5;
 }
 
 .studio-logo {
-  color: var(--nav-log-foot-color, #2e2f42);
-  font-family: var(--title-font, 'Raleway', sans-serif);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px;
-  /* 116.667% */
-  letter-spacing: 0.03rem;
-  text-transform: uppercase;
+  color: #2e2f42);
 }
 
 .contacts {
@@ -115,8 +103,6 @@ main section
 
 
 /* Fatures section */
-.section-feature {}
-
 .title-future {
   font-size: 1.25rem;
   font-style: normal;
@@ -137,7 +123,6 @@ main section
 }
 
 /* What are we doing section */
-.sections-what-are {}
 
 .title-sections {
   font-size: 2.25rem;
@@ -149,14 +134,10 @@ main section
   text-transform: capitalize;
 }
 
-.images-what {}
-
 /* Team section */
 .section-team {
   background: var(--classic-background-color, #f4f4fd);
 }
-
-.images-team {}
 
 /* Footer section */
 .footer {

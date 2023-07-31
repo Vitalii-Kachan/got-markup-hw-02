@@ -1,3 +1,14 @@
+:root {
+    --primary-white-color: #ffffff;
+    --classic-background-color: #f4f4fd;
+    --adres-text-color: #434455;
+    --button-color: #4D5AE5;
+    --nav-log-foot-color: #2e2f42;
+    --brand-color: #404bbf;
+    --prymary-fonts: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+}
+
 .baton-port {
     background-color: var(--primary-white-color, #ffffff);
 }
