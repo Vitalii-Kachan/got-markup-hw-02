@@ -11,9 +11,9 @@
 
 /* base styles */
 .body {
-  --classic-background-color: #f4f4fd;
-  --prymary-fonts: 'Roboto', sans-serif;
-  --title-font: 'Raleway', sans-serif;
+  color: var(--primary-white-color, #ffffff);
+  font-family: var(--prymary-fonts, 'Roboto', sans-serif);
+  font-family: 'Raleway', sans-serif;
 }
 
 .link {
@@ -25,13 +25,14 @@
 
 /* Top line */
 .web-logo {
-  color: var(--button-color, #4d5ae5);
-  font-family: Raleway;
-  font-size: 1.125rem;
+  color: var(--classic-background-color, #f4f4fd);
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.3125rem; /* 116.667% */
-  letter-spacing: 0.03375rem;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .web-logo:hover {
   background: var(---brand-color, #404bbf);
@@ -141,12 +142,12 @@ main section
 }
 .studio-footer {
   color: var(--classic-background-color, #f4f4fd);
-  font-family: Raleway;
-  font-size: 1.125rem;
+  font-family: 'Raleway' sans-serif;
+  font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.3125rem; /* 116.667% */
-  letter-spacing: 0.03375rem;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text-desc-foot {
