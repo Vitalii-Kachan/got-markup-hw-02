@@ -71,6 +71,10 @@
   line-height: 1.5rem; /* 150% */
   letter-spacing: 0.02rem;
 }
+.adress-link:hover, 
+.adress-link:focus { 
+color: var(--button-color, #4d5ea5)
+}
 /* 
 main section 
 */
@@ -152,4 +156,23 @@ main section
   font-weight: 400;
   line-height: 1.5rem; /* 150% */
   letter-spacing: 0.02rem;
+}
+.baton-port {
+background-color: var(--primary-white-color, #ffffff);
+width: 90rem;
+height: 129.75rem;
+}
+
+.button-port-link {
+text-transform: uppercase;
+font-family: Roboto;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.04rem;
+}
+.button-port-link:hover,
+.button-port-link:focus {
+color: var(--button-color, #4d5ea5)
 }
