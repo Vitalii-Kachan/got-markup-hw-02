@@ -12,7 +12,7 @@
 /* base styles */
 .body {
   background-color: var(--primary-white-color, #ffffff);
-  color: var(--nav-log-foot-color, #2e2f42);
+  color: #2e2f42;
   font-family: var(--prymary-fonts, 'Roboto', sans-serif);
 }
 
