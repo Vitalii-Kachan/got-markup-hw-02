@@ -25,7 +25,7 @@
 /* Top line */
 .web-logo {
   color: var(--brand-color, #404bbf);
-  font-family: 'Raleway' sans-serif;
+  font-family: var(--title-font, 'Raleway', sans-serif);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -36,7 +36,7 @@
 
 .studio-logo {
   color: var(--nav-log-foot-color, #2e2f42);
-  font-family: 'Raleway' sans-serif;
+  font-family: var(--title-font, 'Raleway', sans-serif);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
