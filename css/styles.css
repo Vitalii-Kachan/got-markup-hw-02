@@ -56,7 +56,7 @@
 }
 .contacts:hover,
 .contacts:active {
-  color:var(--brand-color, #404bbf);
+  color: var(--brand-color, #404bbf);
 }
 .adresss {
   color: var(--adres-text-color, #434455);
@@ -94,7 +94,7 @@ main section
 .major-button {
   background: var(--button-colors, #4d5ae5);
   color: var(--primary-white-color, #ffffff);
-  
+
 }
 .major-button:hover {
   background: var(--brand-color, #404bbf);
