@@ -47,16 +47,8 @@
   letter-spacing: 0.02em;
 }
 
-.contacts:hover,
-.contacts:active {
-  color: var(--brand-color, #404bbf);
-}
 
 .adresss {
-  color: var(--adres-text-color, #434455);
-}
-
-.adress-link {
   color: var(--adres-text-color, #434455);
   font-size: 16px;
   font-style: normal;
@@ -66,10 +58,11 @@
   letter-spacing: 0.02em;
 }
 
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--button-color, #4D5AE5);
+.adress-link {
+  color: var(--adres-text-color, #434455);
+
 }
+
 
 /* 
 main section 
