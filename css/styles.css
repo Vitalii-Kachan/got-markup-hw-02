@@ -52,13 +52,12 @@
 
 .contacts {
   color: var(--nav-log-foot-color, #2e2f42);
-  font-family: Roboto;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 24px;
   /* 150% */
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -72,13 +71,12 @@
 
 .adress-link {
   color: var(--adres-text-color, #434455);
-  font-family: Roboto;
-  font-size: 1rem;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 24px;
   /* 150% */
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02em;
 }
 
 .adress-link:hover,
