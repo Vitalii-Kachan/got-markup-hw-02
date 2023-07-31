@@ -1,10 +1,10 @@
 :root {
-  --brand-color: #404bbf;
   --primary-white-color: #ffffff;
-  --adres-text-color: #434455;
   --classic-background-color: #f4f4fd;
+  --adres-text-color: #434455;
   --button-color: #4d5ea5;
   --nav-log-foot-color: #2e2f42;
+  --brand-color: #404bbf;
   --prymary-fonts: 'Roboto', sans-serif;
   --title-font: 'Raleway', sans-serif;
 }
@@ -130,10 +130,17 @@ main section
   letter-spacing: 0.045rem;
   text-transform: capitalize;
 }
-
+.images-what {
+width: 360px;
+height: 300px;}
 /* Team section */
 .section-team {
   background: var(--classic-background-color, #f4f4fd);
+}
+
+.images-team {
+width: 264px;
+height: 260px;
 }
 /* Footer section */
 .footer {
@@ -159,8 +166,6 @@ main section
 }
 .baton-port {
 background-color: var(--primary-white-color, #ffffff);
-width: 90rem;
-height: 129.75rem;
 }
 
 .button-port-link {
