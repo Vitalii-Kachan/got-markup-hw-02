@@ -11,7 +11,8 @@
 
 /* base styles */
 .body {
-  color: var(--primary-white-color, #ffffff);
+  background-color: var(--primary-white-color, #ffffff);
+  color: var(---nav-log-foot-color,#2e2f42);
   font-family: var(--prymary-fonts, 'Roboto', sans-serif);
   font-family: 'Raleway', sans-serif;
 }
@@ -35,7 +36,7 @@
   text-transform: uppercase;
 }
 .web-logo:hover {
-  background: var(---brand-color, #404bbf);
+ background: var(---brand-color, #404bbf);
 }
 .studio-logo {
   color: var(---nav-log-foot-color, #2e2f42);
