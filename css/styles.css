@@ -89,20 +89,27 @@ main section
 }
 
 .title-major {
+  font-family: 'Roboto', sans-serif;
   color: var(--primary-white-color, #ffffff);
-  font-family: Roboto;
-  font-size: 3.5rem;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 1.07;
   /* 107.143% */
-  letter-spacing: 0.07rem;
+  letter-spacing: 0.07em;
+  text-align: center;
 }
 
 .major-button {
   background: var(--button-colors, #4d5ae5);
   color: var(--primary-white-color, #ffffff);
-
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+  /* 107.143% */
+  letter-spacing: 0.07rem;
 }
 
 .major-button:hover {
