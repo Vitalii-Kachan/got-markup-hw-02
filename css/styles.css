@@ -201,3 +201,29 @@ main section
 }
 
 /* Porfolio */
+/* sektion button */
+.button-port-link {
+  color: var(--button-colors, #4d5ae5);
+  background-color: var(--classic-background-color, #f4f4fd);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em
+}
+
+.button-port-link:hover,
+.button-port-link:focus {
+  color: #FFFFFF;
+  background-color: #404bbf;
+}
+
+.tiitle-port-button {
+  color: var(--nav-log-foot-color, #2e2f42);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* 120% */
+  letter-spacing: 0.02em;
+}
