@@ -228,7 +228,7 @@ main section
   letter-spacing: 0.02em;
 }
 
-.text-desk-port {
+.text-desc-port {
   color: var(--adres-text-color, #434455);
   font-size: 16px;
   font-style: normal;
