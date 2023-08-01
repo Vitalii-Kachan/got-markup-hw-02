@@ -220,10 +220,10 @@ main section
 
 .tiitle-port-button {
   color: var(--nav-log-foot-color, #2e2f42);
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 1.2em;
   /* 120% */
   letter-spacing: 0.02em;
 }
