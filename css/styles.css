@@ -162,6 +162,10 @@ main section
 }
 
 /* Team section */
+.section-team {
+  background-color: #F4F4FD;
+}
+
 .title-our-team {
   background-color: #FFFFFF;
 }
