@@ -31,7 +31,7 @@ body {
 
 .web-logo {
   color: #4D5AE5;
-  font-family: Raleway;
+  font-family: 'Raleway' sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -55,10 +55,18 @@ body {
   text-transform: uppercase;
 }
 
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf
+}
+
+.adress {
+  font-style: normal;
+}
+
 .adress-link {
   color: var(--adres-text-color, #434455);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5rem;
   /* 150% */
@@ -66,15 +74,9 @@ body {
   text-transform: uppercase;
 }
 
-.link-contact {
-  color: var(--adres-text-color, #434455);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5rem;
-  /* 150% */
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf
 }
 
 /* 
