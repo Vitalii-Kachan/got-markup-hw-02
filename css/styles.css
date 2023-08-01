@@ -52,6 +52,7 @@ body {
   line-height: 1.5em;
   /* 150% */
   letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .adress-link {
@@ -62,6 +63,7 @@ body {
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
+  text-transform: uppercase;
 }
 
 .link-contact {
@@ -72,6 +74,7 @@ body {
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
+  text-transform: uppercase;
 }
 
 /* 
