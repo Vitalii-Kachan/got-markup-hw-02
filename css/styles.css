@@ -209,7 +209,8 @@ main section
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .button-port-link:hover,
@@ -218,7 +219,7 @@ main section
   background-color: #404bbf;
 }
 
-.tiitle-port-button {
+.title-port-button {
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 20px;
   font-style: normal;
@@ -226,6 +227,7 @@ main section
   line-height: 1.2em;
   /* 120% */
   letter-spacing: 0.02em;
+
 }
 
 .text-desc-port {
