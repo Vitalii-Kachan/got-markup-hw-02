@@ -145,9 +145,12 @@ main section
 }
 
 /* What are we doing section */
+.section-what-are {
+  background-color: #F4F4FD;
+}
 
 .title-sections {
-  color: var(--adres-text-color, #434455);
+  color: var(--nav-log-foot-color, #2e2f42);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -159,6 +162,9 @@ main section
 }
 
 /* Team section */
+.title-our-team {
+  background-color: #FFFFFF;
+}
 
 /* Footer section */
 .footer {
@@ -166,7 +172,8 @@ main section
 }
 
 .web-logo-footer {
-  color: #4D5AE5;
+  color: var(--button-colors, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -176,9 +183,7 @@ main section
 }
 
 .studio-logo-footer {
-  color: var(--classic-background-color,
-      #f4f4fd);
-
+  color: #f4f4fd;
 }
 
 .text-desc-foot {
