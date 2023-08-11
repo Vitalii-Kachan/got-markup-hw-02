@@ -62,7 +62,9 @@ body {
   color: #404bbf
 }
 
-.adress {}
+.adress {
+  font-style: normal
+}
 
 .adress-link {
   color: var(--adres-text-color, #434455);
@@ -206,6 +208,7 @@ main section
 /* Porfolio */
 /* sektion button */
 .button-port-link {
+  font-family: var(--prymary-fonts, 'Roboto', sans-serif);
   color: var(--button-colors, #4d5ae5);
   background-color: var(--classic-background-color, #f4f4fd);
   font-weight: 500;
