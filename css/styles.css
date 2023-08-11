@@ -46,13 +46,14 @@ body {
 
 .link-nav {
   color: var(--nav-log-foot-color, #2e2f42);
-  font-style: none;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   line-height: 1.5em;
   /* 150% */
   letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
 
 }
 
@@ -70,6 +71,9 @@ body {
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
 
 }
 
