@@ -33,7 +33,6 @@ body {
   font-family: "Raleway", sans-serif;
   color: #4D5AE5;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   /* 116.667% */
@@ -47,12 +46,14 @@ body {
 
 .link-nav {
   color: var(--nav-log-foot-color, #2e2f42);
-  font-style: normal;
+  font-style: none;
+  font-size: 16px;
   font-weight: 500;
+  line-height: 24px;
   line-height: 1.5em;
   /* 150% */
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+
 }
 
 .link-nav:hover,
@@ -60,9 +61,7 @@ body {
   color: #404bbf
 }
 
-.adress {
-  font-style: normal;
-}
+.adress {}
 
 .adress-link {
   color: var(--adres-text-color, #434455);
@@ -71,7 +70,7 @@ body {
   line-height: 1.5rem;
   /* 150% */
   letter-spacing: 0.02rem;
-  text-transform: uppercase;
+
 }
 
 .adress-link:hover,
@@ -205,7 +204,6 @@ main section
 .button-port-link {
   color: var(--button-colors, #4d5ae5);
   background-color: var(--classic-background-color, #f4f4fd);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -222,7 +220,7 @@ main section
 .title-port-img {
   color: var(--nav-log-foot-color, #2e2f42);
   font-size: 20px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 1.2em;
   /* 120% */
